@@ -1,0 +1,47 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Data</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>ebola.Hospital</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>19198949</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Id</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Id</id>
+        <className>ebola.Hospital</className>
+        <methodName>getId</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>totalCost</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>totalCost</id>
+        <className>ebola.Hospital</className>
+        <methodName>gettotalCost</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>totalProfit</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>totalProfit</id>
+        <className>ebola.Hospital</className>
+        <methodName>gettotalProfit</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+	<parameter name="randomSeed" displayName="Default Random Seed" type="int" defaultValue="1" />
+	<parameter name="numOfHospitals" displayName="Number of Hospitals" type="int" defaultValue="2" /> 
+	<parameter name="width" displayName="Width of Grid" type="int" defaultValue="10" />
+	<parameter name="height" displayName="Height of Grid" type="int" defaultValue="10" />
+	<parameter name="endOfSim" displayName="Termination time Tick" type="int" defaultValue="200" />
+	<parameter name="demandDist" displayName="Distribution of Demand" type="double" defaultValue="0" />
+	<parameter name="ebolaOnset" displayName="Start of Ebola outbreak" type="int" defaultValue="20" />
+	<parameter name="ebolaEnd" displayName="End of Ebola Outbreak" type="int" defaultValue="100" />
+	<parameter name="ebolaDemand" displayName="Number of Ebola Patients" type="int" defaultValue="2" />
+	<parameter name="demand" displayName="Mean Demand" type="int" defaultValue="150" />
+	<parameter name="maxCapacity" displayName="Maximum Bed Capacity" type="int" defaultValue="200" />
+	<parameter name="minCapacity" displayName="Minimum Bed Capacity" type="int" defaultValue="100" />
+	<parameter name="maxBedCost" displayName="Maximum Bed Cost" type="double" defaultValue="15" />
+	<parameter name="minBedCost" displayName="Minimum Bed Cost" type="double" defaultValue="15" />
+	<parameter name="maxIdleBedCost" displayName="Maximum Idle Bed Cost" type="double" defaultValue="3" />
+	<parameter name="minIdleBedCost" displayName="Minimum Idle Bed Cost" type="double" defaultValue="3" />
+	<parameter name="maxBedProfit" displayName="Maximum Profit per Bed" type="double" defaultValue="20" />
+	<parameter name="minBedProfit" displayName="Minimum Profit per Bed" type="double" defaultValue="20" />
+	<parameter name="ebolaCost" displayName="Cost per ebola patient" type="double" defaultValue="40" />
+	<parameter name="ebolaProfit" displayName="Profit per ebola patient" type="double" defaultValue="100" />
+	<parameter name="overhead" displayName="Fixed overhead" type="double" defaultValue="200" />
+	<parameter name="ebolaOverhead" displayName="Fixed overhead for Ebola" type="double" defaultValue="500" />
+	<parameter name="numOfBedForEbola" displayName="Number of Bed for Ebola" type="int" defaultValue="10" />
+	
+</parameters>
